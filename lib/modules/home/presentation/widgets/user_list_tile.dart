@@ -45,8 +45,6 @@ class UserListTile extends StatelessWidget {
                   ),
                 ),
               ),
-
-              // Online indicator
               if (user.isOnline == true)
                 Positioned(
                   bottom: 2,
