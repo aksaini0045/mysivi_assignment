@@ -16,7 +16,7 @@ MySivi Assignment - Anuj Kumar , Email: aksaini0045@gmail.com
 
 6. User can view the meaning of any word on chat message bubble by tapping on it. https://api.dictionaryapi.dev/api/v2/entries/en api is used to fetch the word's meaning. Bloc is used instead of cubit for this functionality
 
-7. For Dependency Injection, get_it is skipped for now.. direct object instances are injected for saving time in this assignment
+7. For Dependency Injection, get_it is skipped for now.. direct object instances are injected in di.dart for saving time in this assignment
 
 8. I have also added a simple unit test which tests only the load word meaning bloc functionality
     Test case passes when LoadedWordMeaningState state is achieved
